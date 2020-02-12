@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#f27c8b"
+    android:id="@+id/linearWorkout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewName"
+            android:text="Workout"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewSec"
+            android:text="20"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"/>
+
+
+</LinearLayout>
